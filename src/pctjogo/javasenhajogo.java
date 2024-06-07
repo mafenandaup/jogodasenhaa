@@ -11,9 +11,9 @@ public class javasenhajogo {
         System.out.println("BEM VINDO AO JOGO MASTER MIND!");
         System.out.println("insira, em ordem, os números da sua tentativa abaixo.");
         System.out.println(" ");
+        System.out.println("ta indo?");
         gennum(senha);
         scantentativa(tentativa);
-        verify(senha, tentativa);
     }
 
     public static void gennum(int v[]) {
@@ -38,7 +38,11 @@ public static boolean verify (int v[], int c[]){
         System.out.println("errou a senha ne seu broxa");
         return false;
     }
+    //alterações na branch?? talvezz kkkkkkk
+} 
+    return false;
+    
 }
-}
+
 }
 
